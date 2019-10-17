@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD25204A23581887001D91A3 /* 20191017test.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD25204923581887001D91A3 /* 20191017test.swift */; };
 		BDDDA30922F6D59A000B74F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDDA30822F6D59A000B74F7 /* AppDelegate.swift */; };
 		BDDDA30B22F6D59A000B74F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDDA30A22F6D59A000B74F7 /* ViewController.swift */; };
 		BDDDA30E22F6D59A000B74F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDDDA30C22F6D59A000B74F7 /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BD25204923581887001D91A3 /* 20191017test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 20191017test.swift; sourceTree = "<group>"; };
 		BDDDA30522F6D59A000B74F7 /* selfTestObj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = selfTestObj.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDDDA30822F6D59A000B74F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDDDA30A22F6D59A000B74F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				BDDDA30822F6D59A000B74F7 /* AppDelegate.swift */,
 				BDDDA30A22F6D59A000B74F7 /* ViewController.swift */,
 				BDDDA33822F6DD89000B74F7 /* 20190804test.swift */,
+				BD25204923581887001D91A3 /* 20191017test.swift */,
 				BDDDA33622F6DA7E000B74F7 /* commonConfig.swift */,
 				BDDDA30C22F6D59A000B74F7 /* Main.storyboard */,
 				BDDDA30F22F6D59E000B74F7 /* Assets.xcassets */,
@@ -266,6 +269,7 @@
 				BDDDA33922F6DD89000B74F7 /* 20190804test.swift in Sources */,
 				BDDDA30922F6D59A000B74F7 /* AppDelegate.swift in Sources */,
 				BDDDA33722F6DA7E000B74F7 /* commonConfig.swift in Sources */,
+				BD25204A23581887001D91A3 /* 20191017test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

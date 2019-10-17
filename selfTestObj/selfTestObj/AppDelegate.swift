@@ -17,17 +17,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-        let testListNode = ListNode(1, ListNode(2, ListNode(3, nil)))
-        
-        listNodeValuePrint(testListNode)
-        debugPrint("============")
-        listNodeValuePrint(reverseList01(testListNode)!)
-        debugPrint("============")
-        
-        let testListNode2 = ListNode(1, ListNode(2, ListNode(3, nil)))
-        listNodeValuePrint(testListNode2)
-        debugPrint("============")
-        listNodeValuePrint(reverseList02(testListNode2)!)
         
         return true
     }
