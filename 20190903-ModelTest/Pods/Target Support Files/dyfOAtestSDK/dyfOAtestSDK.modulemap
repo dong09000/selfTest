@@ -1,0 +1,6 @@
+framework module dyfOAtestSDK {
+  umbrella header "dyfOAtestSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

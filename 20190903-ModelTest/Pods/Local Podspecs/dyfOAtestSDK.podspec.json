@@ -1,0 +1,40 @@
+{
+  "name": "dyfOAtestSDK",
+  "version": "0.0.1",
+  "summary": "A short description of dyfOAtestSDK.",
+  "homepage": "https://github.com",
+  "license": {
+    "type": "MIT",
+    "file": "FILE_LICENSE"
+  },
+  "authors": {
+    "dongyuefeng": "dongyuefeng@100tal.com"
+  },
+  "platforms": {
+    "ios": "5.0",
+    "osx": "10.7",
+    "watchos": "2.0",
+    "tvos": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/dong09000/EditModel.git",
+    "tag": "0.0.1"
+  },
+  "source_files": [
+    "*.{h,m}",
+    "model/*.{h,m}",
+    "model/*/*.{h,m}"
+  ],
+  "requires_arc": true,
+  "preserve_paths": [
+    "protoc",
+    "proto/*/*.proto",
+    true
+  ],
+  "user_target_xcconfig": {
+    "GCC_PREPROCESSOR_DEFINITIONS": "$(inherited) GPB_USE_PROTOBUF_FRAMEWORK_IMPORTS=1"
+  },
+  "pod_target_xcconfig": {
+    "GCC_PREPROCESSOR_DEFINITIONS": "$(inherited) GPB_USE_PROTOBUF_FRAMEWORK_IMPORTS=1"
+  }
+}

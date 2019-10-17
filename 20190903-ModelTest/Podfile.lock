@@ -1,0 +1,16 @@
+PODS:
+  - dyfOAtestSDK (0.0.1)
+
+DEPENDENCIES:
+  - dyfOAtestSDK (from `../hahahaha/suibian01.podspec`)
+
+EXTERNAL SOURCES:
+  dyfOAtestSDK:
+    :path: "../hahahaha/suibian01.podspec"
+
+SPEC CHECKSUMS:
+  dyfOAtestSDK: cfed15a1238c974b78e1082517cf0d03460d6bdb
+
+PODFILE CHECKSUM: 7929526f3a11dff385e6ab9ad620ca603263cca4
+
+COCOAPODS: 1.7.4
