@@ -1,0 +1,14 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+
+target 'hack001' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for hack001
+  pod 'CocoaAsyncSocket'
+  
+  
+  #pod 'LBLelinkKit'
+  
+end
